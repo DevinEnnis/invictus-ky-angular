@@ -1,0 +1,11 @@
+.header {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #d31414;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.headerWhite {
+    color: #ffff;
+}
