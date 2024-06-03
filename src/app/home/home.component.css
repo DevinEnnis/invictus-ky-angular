@@ -1,11 +1,31 @@
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
     font-weight: 600;
     color: #d31414;
-    padding-left: 100px;
-    padding-top: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    /* padding-left: 100px;
+    padding-top: 100px; */
 }
 
 .headerWhite {
     color: #ffff;
+}
+
+.headerFlorence {
+    color: #ffff;
+    display: flex;
+}
+
+.homeText {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
