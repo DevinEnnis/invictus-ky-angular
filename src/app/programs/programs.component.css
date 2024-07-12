@@ -1,0 +1,46 @@
+.construction {
+    display: flex; 
+    justify-content: center;
+    font-size: larger;
+    color: hsla(51, 88%, 49%, 0.99);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10%;
+}
+
+.construction_pic img {
+    display: flex; 
+    justify-content: center;
+    max-width: 30%;
+    margin-top: 1%;
+    margin-bottom: 10px;
+}
+
+.construction_pic {
+    display: flex; 
+    justify-content: center;
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    .construction {
+        display: flex; 
+        justify-content: center;
+        font-size: larger;
+        color: hsla(51, 99%, 50%, 0.99);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-top: 30%;
+    }
+    
+    .construction_pic img {
+        display: flex; 
+        justify-content: center;
+        max-width: 75%;
+        margin-bottom: 10px;
+    }
+    
+    .construction_pic {
+        display: flex; 
+        justify-content: center;
+        max-width: 100%;
+    }
+}

@@ -16,16 +16,151 @@
 
 .headerFlorence {
     color: #ffff;
-    display: flex;
+    /* display: flex; */
 }
 
 .homeText {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-top: 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     font-size: 1.5rem;
     font-weight: 300;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+.moving_info {
+    display: flex; 
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 36pt;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.moving_info a {
+    text-decoration: underline;
+    font-size: 18pt;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.moving_info_pic {
+    display: flex; 
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+/* img {
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.moving_info_pic img {
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.construction {
+    display: flex; 
+    justify-content: center;
+    font-size: larger;
+    color: hsla(51, 88%, 49%, 0.99);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15%;
+}
+
+.construction_pic img {
+    display: flex; 
+    justify-content: center;
+    max-width: 30%;
+    margin-top: 1%;
+    margin-bottom: 10px;
+}
+
+.construction_pic {
+    display: flex; 
+    justify-content: center;
+    max-width: 100%;
+}
+
+.moving {
+    font-weight: bolder;
+}
+
+@media (max-width: 600px) {
+.header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.moving_info {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: large;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.moving_info a {
+    text-decoration: underline;
+    font-size: large;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.moving_info_pic {
+    display: flex; 
+    justify-content: center;
+}
+
+.moving_info_pic img {
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.construction {
+    display: flex; 
+    justify-content: center;
+    font-size: larger;
+    color: hsla(51, 99%, 50%, 0.99);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 30%;
+}
+
+.construction_pic img {
+    display: flex; 
+    justify-content: center;
+    max-width: 75%;
+    margin-bottom: 10px;
+}
+
+.construction_pic {
+    display: flex; 
+    justify-content: center;
+    max-width: 100%;
+}
+
+.moving {
+    font-weight: bolder;
+}
+
+.homeText {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 10pt;
+    font-weight: 150;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+  }
