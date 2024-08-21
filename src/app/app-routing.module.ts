@@ -5,10 +5,9 @@ import { ContactComponent } from './contact/contact.component';
 import { ProgramsComponent } from './programs/programs.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   {path: 'programs', component: ProgramsComponent},
-  { path: '', redirectTo: '/home', pathMatch: 'full' } // Redirect to home by default
+  { path: '', component: HomeComponent } // Redirect to home by default
 ];
 
 @NgModule({
